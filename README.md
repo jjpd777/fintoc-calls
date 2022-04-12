@@ -1,2 +1,2 @@
 # fintoc-calls
-Simplified testing for fintoc responses
+Simplified testing for fintoc pagination
