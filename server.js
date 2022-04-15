@@ -45,7 +45,8 @@ async function requestHistoricalData(listOfURLs) {
     try {
 
         return axios.all(listOfURLs.map((request) =>
-            axios.get(request, options))).then(
+            axios.get(request, options)))
+            .then(
                 (response) => {
                     var parsed = [];
                     response.map(r => {
